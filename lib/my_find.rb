@@ -2,7 +2,7 @@ require 'pry'
 
 def my_find(collection)
   i = 0
-  while 1 < collection.length
+  while i < collection.length
     if yield(collection[i])
       return collection[i]
     end
